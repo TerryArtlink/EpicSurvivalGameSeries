@@ -4,7 +4,7 @@
 #include "SBaseCharacter.h"
 #include "SGameMode.h"
 
-
+//≤‚ ‘
 ASBaseCharacter::ASBaseCharacter(const class FObjectInitializer& ObjectInitializer)
 	/* Override the movement class from the base class to our own to support multiple speeds (eg. sprinting) */
 	: Super(ObjectInitializer.SetDefaultSubobjectClass<USCharacterMovementComponent>(ACharacter::CharacterMovementComponentName))
